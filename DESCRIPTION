@@ -1,14 +1,14 @@
 Package: newpackage
 Title: What the Package Does (One Line, Title Case)
 Version: 0.1.0
-Authors@R: 
-    person(given = "Mukai",
-           family = "Wang",
-           role = c("aut", "cre"),
-           email = "wangmk@umich.edu",
-           comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
-License: GPLv3
+Author: Mukai Wang
+Maintainer: Mukai Wang<wangmk@umich.edu>
+Description: Get the square of a number.
+License: GPL-2
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 6.1.1
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
